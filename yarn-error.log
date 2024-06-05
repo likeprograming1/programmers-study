@@ -1,0 +1,39 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\hsj22\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev babel-jest @babel/core @babel/preset-env @babel/preset-typescript
+
+PATH: 
+  C:\Users\hsj22\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\hsj22\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\hsj22\AppData\Local\Programs\cursor\resources\app\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\hsj22\AppData\Local\Microsoft\WindowsApps;C:\Users\hsj22\AppData\Local\afreeca;C:\Users\hsj22\AppData\Roaming\npm;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\MySQL\MySQL Shell 8.0\bin;C:\Users\hsj22\AppData\Local\Microsoft\WindowsApps;C:\Users\hsj22\AppData\Local\afreeca;C:\Users\hsj22\AppData\Roaming\npm;C:\flutter\bin;C:\Users\hsj22\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C:\Program Files\Git\Applications\Visual Studio Code.app\Contents\Resources\app\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\hsj22\OneDrive\바탕 화면\study\javascript-programers-study\node_modules\node\bin\node.exe'
+
+npm manifest: 
+  {
+    "name": "programers-study",
+    "version": "1.0.0",
+    "dependencies": {
+      "node": "^20.14.0"
+    },
+    "type": "module",
+    "devDependencies": {
+      "jest": "^29.7.0"
+    },
+    "scripts": {
+      "test": "jest"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
