@@ -1,3 +1,3 @@
-export function solution(num1, num2) {
-  return num1 % num2;
+export function solution(age: number) {
+  return 2023 - age;
 }
